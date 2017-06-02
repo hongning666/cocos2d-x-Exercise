@@ -21,7 +21,7 @@ bool MyLabel::init()
 	atlas->setPosition(240, 160);
 	addChild(atlas);
 	atlas->setTag(ATLAS);*/
-	LabelBMFont *bm = LabelBMFont::create("GOOD NIGHT", "bitmapFontTest.fnt");
+	LabelBMFont *bm = LabelBMFont::create("GOOD NIGHT", "bitmapFontTest.fnt");//通过位图创建字体
 	bm->setPosition(240, 160);
 	bm->setAnchorPoint(Vec2(0.5, 0.5));
 	addChild(bm);

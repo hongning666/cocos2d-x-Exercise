@@ -12,7 +12,7 @@ public:
 	{
 		TTF,ATLAS
 	};
-	void mySchedule(float dt);
+	void mySchedule(float dt);//¶¨Ê±Æ÷
 };
 
 #endif
