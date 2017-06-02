@@ -11,7 +11,7 @@ Scene* MyLabel::createScene()
 bool MyLabel::init()
 {
 	Layer::init();
-	/*LabelTTF* ttf = LabelTTF::create("HelloWorld", "Curier", 50);
+	/*LabelTTF* ttf = LabelTTF::create("HelloWorld", "Curier", 50);//通过系统字体创建
 	ttf->setPosition(240, 160);
 	addChild(ttf);
 	ttf->setTag(TTF);*/

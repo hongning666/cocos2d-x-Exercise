@@ -8,7 +8,7 @@ public:
 	static Scene* createScene();
 	bool init();
 	CREATE_FUNC(MyLabel);
-	enum Label
+	enum Label//Ã¶¾Ù
 	{
 		TTF,ATLAS
 	};
